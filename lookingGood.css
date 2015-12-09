@@ -23,7 +23,7 @@ p {
 }
 
 .street {
-  background: url('street_view-min.png') no-repeat;
+  background: url('street_view-tiny.png') no-repeat;
   background-size: cover;
   min-width: 100%;
   min-height: 100%;
