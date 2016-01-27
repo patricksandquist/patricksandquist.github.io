@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: Arial;
+}
+
+h1 {
+  margin: 0px;
+}
+
+p {
+  font-size: large;
+  margin: 0px 0px 5px 0px;
+}
+
+.page {
+  position: relative;
+  min-height: 100%;
+  min-width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.street {
+  background: url('street_view-tiny.png') no-repeat;
+  background-size: cover;
+  min-width: 100%;
+  min-height: 100%;
+  float: right;
+  position: fixed;
+  right: 0;
+}
+
+.intro {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  padding: 10px 10px;
+  display: block;
+}
+
+.blerb {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  position: absolute;
+  top: 127px;
+  left: 40px;
+  padding: 6px 10px 0px 10px;
+  display: block;
+}
+
+.contact {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  position: absolute;
+  top: 257px;
+  left: 40px;
+  padding: 6px 10px 0px 10px;
+  display: block;
+}
+
+a:link, a:visited, a:active {
+  text-decoration: underline;
+  color: white;
+}
+
+a:hover{
+  color: white;
+}
