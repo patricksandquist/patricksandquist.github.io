@@ -3,22 +3,29 @@
   <head>
     <meta charset="utf-8">
     <title>Patrick Sandquist dot com</title>
-    <link href="lookingGood.css" rel="stylesheet" type="text/css"/>
-    <link href="mobileLookingGood.css" rel="stylesheet" type="text/css" media="only screen and (max-device-width: 414px)"/>
+    <!-- Load stylesheets for both large and small screens -->
+    <link href="lookingGood.css"
+          rel="stylesheet"
+          type="text/css"
+          media="only screen and (min-device-width: 415px)"/>
+    <link href="mobileLookingGood.css"
+          rel="stylesheet"
+          type="text/css"
+          media="only screen and (max-device-width: 414px)"/>
   </head>
   <body>
     <div class="page">
       <div class="street" title="(that's me in the green)"/>
-      <div class="intro">
+      <div class="intro textblock">
         <h1>Patrick Sandquist</h1>
       </div>
-      <div class="blerb">
+      <div class="blerb textblock">
         <p>My name's Patrick and I make computer software.</p>
         <p>Some of it is useful like <a target="_blank" href='http://www.rubyoff.xyz' title="get ready to code!">RubyOff</a>, a site to practice Ruby on.</p>
         <p>Some of it <a target="_blank" href='https://rawgit.com/patricksandquist/Sidewinder/master/html/snake.html' title="Sidewinder">isn't</a> (though a great way to procrastinate).</p>
         <p>Check out my other <a target="_blank" href='https://github.com/patricksandquist' title="GitHub">projects</a>.</p>
       </div>
-      <div class="contact">
+      <div class="contact textblock">
         <p>Want to know what I know?</p>
         <p><a href='./Resume.pdf' title="dl" download>Read</a> about me or say hello on <a target="_blank" href='https://www.linkedin.com/in/patricksandquist' title="LinkedIn">LinkedIn</a> or <a target="_blank" href='mailto:patricksandquist@gmail.com' title="Gmail">email</a>.</p>
       </div>
